@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./photos/bg.png);
+    color: #fff;
+}
+
+.wrapper {
+    width: 380px;
+    background: rgba(0, 0, 0, 0.847);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+#openSignUpDv:hover,
+#openSignInDv:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wrapper h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.wrapper input, .wrapper select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.wrapper input::placeholder, .wrapper select {
+    color: rgba(255,255,255,0.7);
+}
+
+.wrapper input:focus, .wrapper select:focus {
+    background: rgba(255,255,255,0.2);
+}
+
+.wrapper button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #ff4b2b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wrapper button:hover {
+    background: #ff416c;
+}
+
+.wrapper p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.wrapper a {
+    color: #ff4b2b;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.wrapper a:hover {
+    color: #ff416c;
+}
+
+.you button {
+    width: 48%;
+    margin-right: 4%;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.you button:last-child {
+    margin-right: 0;
+}
+
+.you button:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.brith {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#errorA, #errorB {
+    color: #ff6b6b;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.you{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.registerDv{
+    display: none;
+}
+
+.loginDv, .registerDv {
+    transition: all 0.5s ease;
+}
+
+.loginDv img{
+    width: 30px;
+    height: 30px;
+    border-radius: 45%;
+    object-fit: cover;
+}
+
+.pp{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.b a{
+    color: white;
+    opacity: 0.8;
+}
+
+.b a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
